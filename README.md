@@ -28,7 +28,7 @@ The agent stores all of its past experiences, which includes 1) what action it t
 
 ## Results and Future Work
 
-The above approach produced an average reward of 13+ over 100 consecutive episodes within 71 episodes, as shown in the jupyter notebook. Much of the improvement and variation in results centers around how much, how fast and how often to use the agent's past experiences to train the network and improve the action policy. Future work focused on this area could yild improved results, namely Prioritized Experience Replay or other methods of selecting/optimizing which experiences to utilize for training purposes.
+The above approach produced an average reward of 13+ over 100 consecutive episodes within 71 episodes, as shown in the jupyter notebook. Much of the improvement and variation in results centers around how much, how fast and how often to use the agent's past experiences to train the network and improve the action policy. Future work focused on this area could yield improved results, namely Prioritized Experience Replay or other methods of selecting/optimizing which experiences to utilize for training purposes.
 
 ## Setup Instructions
 
