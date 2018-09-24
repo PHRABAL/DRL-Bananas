@@ -25,3 +25,9 @@ The agent stores all its past experiences (what action it took that resulted in 
 ## Results
 
 The above approach produced an average reward of 13+ over 100 consecutive episodes within 71 episodes, as shown in the jupyter notebook.
+
+## Setup Instructions
+
+To reproduce this model on a Mac, clode the Udacity DRLND repo here. https://github.com/udacity/deep-reinforcement-learning
+
+Then place the bananas.app file in the p1_navigation folder and run the notebook.
