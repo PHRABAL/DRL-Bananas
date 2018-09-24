@@ -28,6 +28,4 @@ The above approach produced an average reward of 13+ over 100 consecutive episod
 
 ## Setup Instructions
 
-To reproduce this model on a Mac, clode the Udacity DRLND repo here. https://github.com/udacity/deep-reinforcement-learning
-
-Then place the bananas.app file in the p1_navigation folder and run the notebook.
+To reproduce this model on a Mac, clode the Udacity DRLND repo here. https://github.com/udacity/deep-reinforcement-learning. Then place the banana.app.zip file in the p1_navigation folder and uncompress it. You can then run the notebook.
