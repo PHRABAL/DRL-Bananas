@@ -14,7 +14,7 @@ One significant area of change in hyperparameters compared to the default provid
 
 #### Exploitation vs. Exploration
 
-I found in this environment that, relative to other DRL agents I have trained, the agent does not need to try nearly as many random actions to gather the necessary experience to act efficiently. Therefore, I have weighted exploitation heavily from an early stage while keeping a minimal amount of exploration. I start epsilon at just 0.25 and decay it at .995 until a minimum of 0.001 is reached. This is significantly less than the 1.0 starting epsilon in the default code and has the effect of following a trained policy more often in the early episodes.
+I found in this environment that, relative to other DRL agents I have trained, the agent does not need to try nearly as many random actions to gather the necessary experience to act efficiently. Therefore, I have weighted exploitation heavily from an early stage while keeping a minimal amount of exploration. I start epsilon at just 0.25 and decay it at .995 until a minimum of 0.001 is reached. This is significantly less than the 1.0 starting epsilon and 0.01 minimum in the default code. These changes cause the agent to follow the trained policy more often in the early episodes.
 
 
 #### Experience Memory
