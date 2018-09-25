@@ -3,7 +3,7 @@
 ### Model Architecture
 The Udacity provided Deep Q-Network code in PyTorch was used and adapted for this environment. 
 
-I used a simple, two hidden layer, 64-64 node each, neural network with ReLU activation functions. 
+I used a simple, two hidden layer, 64-64 node, neural network with ReLU activation functions. 
 
 
 ### Hyperparameters
