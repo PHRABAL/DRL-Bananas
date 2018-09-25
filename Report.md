@@ -26,4 +26,6 @@ In optimizing this agent, I found that the agent learns optimal actions fairly q
 
 The above approach produced an average reward of 13+ over 100 consecutive episodes within 71 episodes.
 
+<img src="Results_Graph.png" width="400" height="260" />
+
 Much of the improvement and variation in results centers around how much, how fast and how often to use the agent's past experiences to train the network and improve the action policy. Future work focused on this area could yield improved results, namely Prioritized Experience Replay or other methods of selecting/optimizing which experiences to utilize for training purposes.
