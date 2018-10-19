@@ -1,4 +1,6 @@
-# Deep Reinforcement Learning - DQN Algorithm - Chasing Bananas
+<img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif">
+
+# DRL - DQN Algorithm - Chasing Bananas
 
 ## Overview
 Using the Unity agent/environment "Banana", the task is to train an AI agent to eat as many yellow bananas as possible in a 300 step episode run. The matrix for evaluation is how many episodes it takes for the agent to achieve an average reward of 13 over 100 consecutive runs.
